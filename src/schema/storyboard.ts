@@ -62,3 +62,28 @@ export interface ResolvedProps {
   audioSrc: string; subtitles: SubtitleCue[]; scenes: ResolvedScene[];
   totalDurationInFrames: number; transitionDurationInFrames: number; enableSubtitles: boolean;
 }
+
+export const ResolvedSceneSchema = SceneSchema.innerType().extend({
+  startFrame: z.number(),
+  endFrame: z.number(),
+});
+
+export const SubtitleCueSchema = z.object({
+  text: z.string(),
+  startFrame: z.number(),
+  endFrame: z.number(),
+});
+
+export const ResolvedPropsSchema = z.object({
+  title: z.string(),
+  language: z.string(),
+  video: VideoConfigSchema,
+  theme: ThemeSchema,
+  audioSrc: z.string(),
+  subtitles: z.array(SubtitleCueSchema),
+  scenes: z.array(ResolvedSceneSchema),
+  totalDurationInFrames: z.number(),
+  transitionDurationInFrames: z.number(),
+  enableSubtitles: z.boolean(),
+});
+

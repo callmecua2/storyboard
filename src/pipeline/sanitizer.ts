@@ -1,9 +1,6 @@
-import { JSDOM } from 'jsdom';
-import createDOMPurify from 'isomorphic-dompurify';
+import DOMPurify from 'isomorphic-dompurify';
 import { StoryboardInput } from '../schema/storyboard';
 
-const window = new JSDOM('').window;
-const DOMPurify = createDOMPurify(window as unknown as Window);
 
 export interface SanitizeResult {
   storyboard: StoryboardInput;

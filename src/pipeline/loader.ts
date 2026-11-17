@@ -56,8 +56,7 @@ export function loadAndValidateStoryboard(storyboardPath: string): LoadResult {
     throw new Error(
       `Validasi skema storyboard gagal (${result.error.issues.length} error):
 ` +
-        errorLines.join('
-')
+        errorLines.join('\n')
     );
   }
 

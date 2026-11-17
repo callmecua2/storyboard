@@ -1,7 +1,7 @@
 import React from 'react';
 import { Composition } from 'remotion';
 import { VideoComposition } from './VideoComposition';
-import { ResolvedProps } from '../schema/storyboard';
+import { ResolvedProps, ResolvedPropsSchema } from '../schema/storyboard';
 
 const defaultProps: ResolvedProps = {
   title: 'Preview Video',
@@ -33,7 +33,8 @@ const defaultProps: ResolvedProps = {
 export const RemotionRoot: React.FC = () => (
   <Composition
     id="MainVideo"
-    component={VideoComposition}
+    component={VideoComposition as unknown as React.ComponentType<Record<string, unknown>>}
+    schema={ResolvedPropsSchema}
     durationInFrames={defaultProps.totalDurationInFrames}
     fps={defaultProps.video.fps}
     width={defaultProps.video.width}

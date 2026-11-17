@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:04,200
+Ini adalah contoh transkrip dengan timestamp yang sudah disiapkan.
+
+2
+00:00:04,200 --> 00:00:08,500
+Subtitle akan tampil mengikuti waktu cue dari file SRT.
+
+3
+00:00:08,500 --> 00:00:14,000
+Adegan visual menggunakan waktu absolut dalam detik.
+
+4
+00:00:14,000 --> 00:00:20,000
+Satu audio global diputar dari awal sampai akhir video.

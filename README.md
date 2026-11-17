@@ -1,32 +1,40 @@
-# Storyboard to Video (MVP)
+# Storyboard to Video
 
-Program lokal berbasis TypeScript & Remotion untuk mengubah file `storyboard.json` + audio narasi per adegan menjadi video MP4 utuh.
+Pipeline TypeScript + Remotion untuk merender storyboard JSON menjadi MP4 dengan **satu file audio narasi global** dan subtitle dari transkrip SRT bertimestamp.
 
-## Persiapan Awal
+## Persiapan
 
-1. Install dependensi:
-   ```bash
-   npm install
-   ```
-2. Letakkan file font lokal (opsional, misalnya `Poppins-Bold.ttf` dan `Inter-Regular.ttf`) di folder `fonts/` jika ingin menggunakan font kustom tanpa koneksi internet.
-3. Siapkan `storyboard.json` dan folder `audio/` berisi file audio per adegan (`01.wav`, `02.wav`, dst.). Contoh sudah tersedia di folder `example/`.
+1. Install dependensi: `npm install`.
+2. Pastikan FFmpeg dan `ffprobe` tersedia di PATH.
+3. Siapkan satu file audio dan satu file transkrip SRT.
+4. Path audio dan SRT ditulis relatif terhadap lokasi `storyboard.json`.
 
-## Perintah CLI
+## Format storyboard
+
+Lihat `example/storyboard.json`. Audio didefinisikan sekali di root:
+
+```json
+"audio": {
+  "file": "audio/narration.mp3",
+  "transcript": "audio/narration.srt"
+}
+```
+
+Setiap scene hanya menentukan waktu absolut dalam detik:
+
+```json
+{ "id": 1, "start": 0, "end": 12.5, "visual": { "type": "svg", "code": "<svg>...</svg>" } }
+```
+
+Scene tidak lagi memiliki `narration`, `audio`, atau `duration`. Audio global menentukan durasi video. Cue subtitle mengikuti timestamp SRT, bukan pembagian teks otomatis. Gunakan format timestamp SRT `HH:MM:SS,mmm`.
+
+## CLI
 
 ```bash
-# Validasi storyboard, sanitasi HTML/SVG, dan cek kelengkapan aset audio
-npm run validate -- --storyboard example/storyboard.json --audio-dir example/audio
+npm run validate -- --storyboard example/storyboard.json
+npm run preview -- --storyboard example/storyboard.json
+npm run render -- --storyboard example/storyboard.json
+npm run render -- --storyboard example/storyboard.json --draft
+``
 
-# Buka Remotion Studio untuk preview interaktif
-npm run preview -- --storyboard example/storyboard.json --audio-dir example/audio
-
-# Render seluruh video ke out/<judul>.mp4
-npm run render -- --storyboard example/storyboard.json --audio-dir example/audio
-
-# Render satu adegan tertentu (misal adegan 2) untuk pengecekan cepat
-npm run render -- --storyboard example/storyboard.json --audio-dir example/audio --scene 2
-
-# Render cepat resolusi rendah (720p, 15fps) untuk uji alur
-npm run render -- --storyboard example/storyboard.json --audio-dir example/audio --draft
-```
-# storyboard
+Opsi `--no-subtitles` tetap tersedia. `--audio-dir` dihapus karena lokasi aset kini didefinisikan langsung di storyboard.

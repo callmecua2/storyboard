@@ -1,0 +1,214 @@
+{
+  "title": "Kenapa Judi Online sangat Sulit Diberantas di Indonesia",
+  "language": "id",
+  "video": { "width": 1080, "height": 1920, "fps": 30 },
+  "theme": {
+    "background": "#0F172A",
+    "accent": "#F59E0B",
+    "text": "#F8FAFC",
+    "fontHeading": "Poppins",
+    "fontBody": "Inter"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Judi online di Indonesia bukan sekadar aplikasi ilegal, tapi jaringan raksasa yang terus beradaptasi.",
+      "audio": "audio/01.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><circle cx='540' cy='760' r='360' style='fill:var(--accent);opacity:0.08'/><circle cx='540' cy='760' r='250' style='fill:none;stroke:var(--accent);stroke-width:10;opacity:0.35'/><line x1='540' y1='760' x2='320' y2='560' style='stroke:var(--text);stroke-width:10;opacity:0.5'/><line x1='540' y1='760' x2='760' y2='560' style='stroke:var(--text);stroke-width:10;opacity:0.5'/><line x1='540' y1='760' x2='320' y2='980' style='stroke:var(--text);stroke-width:10;opacity:0.5'/><line x1='540' y1='760' x2='760' y2='980' style='stroke:var(--text);stroke-width:10;opacity:0.5'/><circle cx='540' cy='760' r='90' style='fill:var(--accent)'/><circle cx='320' cy='560' r='46' style='fill:var(--text)'/><circle cx='760' cy='560' r='46' style='fill:var(--text)'/><circle cx='320' cy='980' r='46' style='fill:var(--text)'/><circle cx='760' cy='980' r='46' style='fill:var(--text)'/><text x='540' y='1240' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='120' style='fill:var(--text)'>JARINGAN</text><text x='540' y='1340' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>BERADAPTASI</text></svg>" },
+      "on_screen_text": "Jaringan raksasa",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 2,
+      "narration": "Setiap kali satu situs diblokir, muncul puluhan alamat baru dan aplikasi cadangan dalam hitungan jam.",
+      "audio": "audio/02.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='250' y='560' width='580' height='360' rx='36' style='fill:none;stroke:var(--text);stroke-width:16'/><line x1='320' y1='630' x2='760' y2='850' style='stroke:var(--accent);stroke-width:24;stroke-linecap:round'/><line x1='760' y1='630' x2='320' y2='850' style='stroke:var(--accent);stroke-width:24;stroke-linecap:round'/><circle cx='900' cy='560' r='34' style='fill:var(--accent)'/><circle cx='930' cy='660' r='34' style='fill:var(--accent)'/><circle cx='900' cy='760' r='34' style='fill:var(--accent)'/><circle cx='930' cy='860' r='34' style='fill:var(--accent)'/><text x='540' y='1120' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='110' style='fill:var(--text)'>BLOKIR</text><text x='540' y='1240' text-anchor='middle' font-family='Inter' font-weight='600' font-size='60' style='fill:var(--accent)'>ALAMAT BARU</text></svg>" },
+      "on_screen_text": "Situs baru muncul",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 3,
+      "narration": "Server mereka berpindah negara, sehingga penegakan hukum sering berbenturan dengan batas yurisdiksi dan prosedur lintas negara.",
+      "audio": "audio/03.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><circle cx='540' cy='760' r='280' style='fill:none;stroke:var(--text);stroke-width:16'/><ellipse cx='540' cy='760' rx='280' ry='110' style='fill:none;stroke:var(--accent);stroke-width:12'/><ellipse cx='540' cy='760' rx='110' ry='280' style='fill:none;stroke:var(--accent);stroke-width:12'/><line x1='260' y1='760' x2='820' y2='760' style='stroke:var(--text);stroke-width:10;opacity:0.5'/><line x1='540' y1='480' x2='540' y2='1040' style='stroke:var(--text);stroke-width:10;opacity:0.5'/><circle cx='360' cy='600' r='30' style='fill:var(--accent)'/><circle cx='720' cy='920' r='30' style='fill:var(--accent)'/><text x='540' y='1240' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='96' style='fill:var(--text)'>LINTAS</text><text x='540' y='1340' text-anchor='middle' font-family='Inter' font-weight='600' font-size='64' style='fill:var(--accent)'>NEGARA</text></svg>" },
+      "on_screen_text": "Batas yurisdiksi",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 4,
+      "narration": "Pelaku memakai identitas palsu dan rekening pinjaman untuk mengaburkan aliran uang korban secara berlapis.",
+      "audio": "audio/04.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='170' y='560' width='300' height='190' rx='24' style='fill:none;stroke:var(--text);stroke-width:14'/><circle cx='240' cy='655' r='38' style='fill:var(--accent)'/><rect x='300' y='620' width='130' height='16' rx='8' style='fill:var(--text);opacity:0.6'/><rect x='300' y='660' width='90' height='16' rx='8' style='fill:var(--text);opacity:0.4'/><rect x='610' y='520' width='300' height='90' rx='18' style='fill:var(--accent);opacity:0.25'/><rect x='610' y='650' width='300' height='90' rx='18' style='fill:var(--accent);opacity:0.25'/><rect x='610' y='780' width='300' height='90' rx='18' style='fill:var(--accent);opacity:0.25'/><line x1='470' y1='655' x2='610' y2='565' style='stroke:var(--accent);stroke-width:12'/><line x1='470' y1='655' x2='610' y2='695' style='stroke:var(--accent);stroke-width:12'/><line x1='470' y1='655' x2='610' y2='825' style='stroke:var(--accent);stroke-width:12'/><text x='540' y='1120' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='100' style='fill:var(--text)'>IDENTITAS</text><text x='540' y='1240' text-anchor='middle' font-family='Inter' font-weight='600' font-size='64' style='fill:var(--accent)'>PALSU</text></svg>" },
+      "on_screen_text": "Uang dikaburkan",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 5,
+      "narration": "Iklan judi menyusup lewat media sosial, pesan pribadi, bahkan tautan undangan yang tampak biasa dan sulit dicurigai.",
+      "audio": "audio/05.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='180' y='520' width='360' height='220' rx='40' style='fill:var(--accent);opacity:0.22'/><path d='M250 740 L250 810 L330 740 Z' style='fill:var(--accent);opacity:0.22'/><rect x='540' y='680' width='360' height='220' rx='40' style='fill:none;stroke:var(--text);stroke-width:14'/><path d='M830 900 L830 970 L750 900 Z' style='fill:var(--text);opacity:0.5'/><circle cx='250' cy='610' r='26' style='fill:var(--accent)'/><circle cx='330' cy='610' r='26' style='fill:var(--accent)'/><circle cx='410' cy='610' r='26' style='fill:var(--accent)'/><rect x='620' y='760' width='200' height='18' rx='9' style='fill:var(--text);opacity:0.5'/><rect x='620' y='810' width='140' height='18' rx='9' style='fill:var(--text);opacity:0.35'/><text x='540' y='1160' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='110' style='fill:var(--text)'>IKLAN</text><text x='540' y='1270' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>MENYUSUP</text></svg>" },
+      "on_screen_text": "Menyusup di media sosial",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 6,
+      "narration": "Mangsa sering tergoda janji kemenangan cepat, padahal peluang menang sudah diatur sistem secara matematis.",
+      "audio": "audio/06.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><circle cx='540' cy='760' r='250' style='fill:none;stroke:var(--text);stroke-width:18'/><path d='M540 760 L540 510 A250 250 0 0 1 756 885 Z' style='fill:var(--accent);opacity:0.8'/><circle cx='540' cy='760' r='70' style='fill:var(--bg);stroke:var(--text);stroke-width:14'/><text x='540' y='1160' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='110' style='fill:var(--text)'>DIATUR</text><text x='540' y='1270' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>SEJAK AWAL</text></svg>" },
+      "on_screen_text": "Peluang diatur",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 7,
+      "narration": "Kecanduan membuat korban terus menambah setoran, sering kali memakai uang keluarga, tabungan, bahkan pinjaman online.",
+      "audio": "audio/07.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='250' y='820' width='110' height='220' rx='14' style='fill:var(--text);opacity:0.35'/><rect x='410' y='720' width='110' height='320' rx='14' style='fill:var(--text);opacity:0.5'/><rect x='570' y='610' width='110' height='430' rx='14' style='fill:var(--accent);opacity:0.55'/><rect x='730' y='480' width='110' height='560' rx='14' style='fill:var(--accent)'/><path d='M250 430 L790 430 L750 370 L830 470 L750 570 L790 510 L250 510 Z' style='fill:var(--text);opacity:0.6'/><text x='540' y='1160' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='110' style='fill:var(--text)'>SETORAN</text><text x='540' y='1270' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>TERUS NAIK</text></svg>" },
+      "on_screen_text": "Kecanduan menambah setoran",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 8,
+      "narration": "Pola ini menciptakan lingkaran utang, tekanan mental, dan keretakan hubungan di dalam rumah tangga.",
+      "audio": "audio/08.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><circle cx='540' cy='760' r='230' style='fill:none;stroke:var(--accent);stroke-width:18;stroke-dasharray='28 24'/><circle cx='540' cy='530' r='70' style='fill:var(--text)'/><circle cx='340' cy='880' r='70' style='fill:var(--text)'/><circle cx='740' cy='880' r='70' style='fill:var(--text)'/><text x='540' y='560' text-anchor='middle' font-family='Inter' font-weight='700' font-size='56' style='fill:var(--bg)'>UTANG</text><text x='340' y='910' text-anchor='middle' font-family='Inter' font-weight='700' font-size='48' style='fill:var(--bg)'>TEKANAN</text><text x='740' y='910' text-anchor='middle' font-family='Inter' font-weight='700' font-size='48' style='fill:var(--bg)'>RUMAH</text><text x='540' y='1220' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='100' style='fill:var(--text)'>LINGKARAN</text><text x='540' y='1320' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>BERULANG</text></svg>" },
+      "on_screen_text": "Utang dan tekanan",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 9,
+      "narration": "Banyak korban tidak melapor karena malu, takut, atau tidak tahu harus mengadu kepada lembaga mana.",
+      "audio": "audio/09.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='230' y='530' width='620' height='360' rx='50' style='fill:none;stroke:var(--text);stroke-width:18'/><path d='M390 890 L390 990 L510 890 Z' style='fill:var(--text);opacity:0.5'/><text x='540' y='740' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='130' style='fill:var(--accent)'>LAPOR?</text><line x1='330' y1='600' x2='750' y2='820' style='stroke:var(--accent);stroke-width:20;stroke-linecap:round;opacity:0.7'/><text x='540' y='1160' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='110' style='fill:var(--text)'>DIAM</text><text x='540' y='1270' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>KARENA TAKUT</text></svg>" },
+      "on_screen_text": "Korban diam",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 10,
+      "narration": "Data laporan sering tidak lengkap, sehingga pemetaan jaringan dan pelacakan pelaku sulit dilakukan dengan cepat.",
+      "audio": "audio/10.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><line x1='300' y1='560' x2='540' y2='760' style='stroke:var(--accent);stroke-width:10;stroke-dasharray='18 18'/><line x1='540' y1='760' x2='780' y2='560' style='stroke:var(--accent);stroke-width:10;stroke-dasharray='18 18'/><line x1='540' y1='760' x2='420' y2='980' style='stroke:var(--text);stroke-width:10;opacity:0.35'/><line x1='540' y1='760' x2='720' y2='1000' style='stroke:var(--text);stroke-width:10;stroke-dasharray='18 18'/><circle cx='300' cy='560' r='54' style='fill:var(--text)'/><circle cx='780' cy='560' r='54' style='fill:var(--text)'/><circle cx='540' cy='760' r='70' style='fill:var(--accent)'/><circle cx='420' cy='980' r='54' style='fill:none;stroke:var(--text);stroke-width:12;stroke-dasharray='14 14'/><circle cx='720' cy='1000' r='54' style='fill:var(--accent);opacity:0.35'/><text x='540' y='1220' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='110' style='fill:var(--text)'>DATA</text><text x='540' y='1330' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>TAK LENGKAP</text></svg>" },
+      "on_screen_text": "Pemetaan sulit",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 11,
+      "narration": "Transaksi memakai pulsa, dompet digital, dan kripto untuk memecah jejak uang ke banyak akun kecil.",
+      "audio": "audio/11.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='390' y='560' width='300' height='220' rx='28' style='fill:none;stroke:var(--text);stroke-width:16'/><rect x='450' y='620' width='180' height='18' rx='9' style='fill:var(--accent)'/><circle cx='230' cy='480' r='42' style='fill:var(--accent)'/><circle cx='850' cy='480' r='42' style='fill:var(--accent)'/><circle cx='180' cy='880' r='42' style='fill:var(--accent)'/><circle cx='540' cy='1020' r='42' style='fill:var(--accent)'/><circle cx='900' cy='880' r='42' style='fill:var(--accent)'/><line x1='390' y1='670' x2='260' y2='520' style='stroke:var(--text);stroke-width:10'/><line x1='690' y1='670' x2='820' y2='520' style='stroke:var(--text);stroke-width:10'/><line x1='390' y1='720' x2='220' y2='860' style='stroke:var(--text);stroke-width:10'/><line x1='540' y1='780' x2='540' y2='980' style='stroke:var(--text);stroke-width:10'/><line x1='690' y1='720' x2='860' y2='860' style='stroke:var(--text);stroke-width:10'/><text x='540' y='1200' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='96' style='fill:var(--text)'>JEJAK</text><text x='540' y='1300' text-anchor='middle' font-family='Inter' font-weight='600' font-size='64' style='fill:var(--accent)'>UANG</text></svg>" },
+      "on_screen_text": "Transaksi dipecah",
+      "motion": "pan_right",
+      "transition": "fade"
+    },
+    {
+      "id": 12,
+      "narration": "Kolaborasi antarnegara butuh waktu panjang, sementara jaringan judi bergerak serba cepat dan berpindah lokasi dengan mudah.",
+      "audio": "audio/12.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><circle cx='540' cy='760' r='230' style='fill:none;stroke:var(--text);stroke-width:18'/><line x1='540' y1='760' x2='540' y2='590' style='stroke:var(--accent);stroke-width:18;stroke-linecap:round'/><line x1='540' y1='760' x2='670' y2='830' style='stroke:var(--accent);stroke-width:18;stroke-linecap:round'/><circle cx='540' cy='760' r='22' style='fill:var(--accent)'/><circle cx='240' cy='1180' r='36' style='fill:var(--text)'/><circle cx='840' cy='1180' r='36' style='fill:var(--text)'/><line x1='280' y1='1180' x2='800' y2='1180' style='stroke:var(--accent);stroke-width:10;stroke-dasharray='20 20'/><text x='540' y='1240' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='110' style='fill:var(--text)'>WAKTU</text><text x='540' y='1350' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>TERBATAS</text></svg>" },
+      "on_screen_text": "Kolaborasi butuh waktu",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 13,
+      "narration": "Banyak operator bersembunyi di balik layanan afiliasi yang tampak seperti bisnis biasa dan legal.",
+      "audio": "audio/13.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='280' y='520' width='520' height='130' rx='24' style='fill:var(--text);opacity:0.2'/><rect x='320' y='680' width='440' height='130' rx='24' style='fill:var(--text);opacity:0.3'/><rect x='360' y='840' width='360' height='130' rx='24' style='fill:var(--accent);opacity:0.85'/><circle cx='540' cy='905' r='36' style='fill:var(--bg)'/><text x='540' y='1160' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='100' style='fill:var(--text)'>AFILIASI</text><text x='540' y='1270' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>KEDOK BISNIS</text></svg>" },
+      "on_screen_text": "Bisnis kedok",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 14,
+      "narration": "Mereka merekrut influencer dan komunitas untuk membangun kepercayaan palsu serta memperluas jangkauan korban baru.",
+      "audio": "audio/14.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><circle cx='540' cy='720' r='90' style='fill:var(--accent)'/><circle cx='300' cy='560' r='56' style='fill:var(--text)'/><circle cx='780' cy='560' r='56' style='fill:var(--text)'/><circle cx='300' cy='900' r='56' style='fill:var(--text)'/><circle cx='780' cy='900' r='56' style='fill:var(--text)'/><line x1='540' y1='720' x2='300' y2='560' style='stroke:var(--accent);stroke-width:10'/><line x1='540' y1='720' x2='780' y2='560' style='stroke:var(--accent);stroke-width:10'/><line x1='540' y1='720' x2='300' y2='900' style='stroke:var(--accent);stroke-width:10'/><line x1='540' y1='720' x2='780' y2='900' style='stroke:var(--accent);stroke-width:10'/><text x='540' y='1160' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='100' style='fill:var(--text)'>KEPERCAYAAN</text><text x='540' y='1270' text-anchor='middle' font-family='Inter' font-weight='600' font-size='64' style='fill:var(--accent)'>PALSU</text></svg>" },
+      "on_screen_text": "Kepercayaan palsu",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 15,
+      "narration": "Pendidikan literasi digital belum merata, sehingga banyak pengguna mudah tertipu oleh tampilan yang sangat meyakinkan.",
+      "audio": "audio/15.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='150' y='560' width='330' height='300' rx='28' style='fill:none;stroke:var(--accent);stroke-width:16'/><path d='M315 620 L410 660 L410 740 L315 800 L220 740 L220 660 Z' style='fill:var(--accent);opacity:0.35'/><path d='M260 710 L300 750 L370 670' style='fill:none;stroke:var(--text);stroke-width:16;stroke-linecap:round;stroke-linejoin:round'/><rect x='600' y='560' width='330' height='300' rx='28' style='fill:none;stroke:var(--text);stroke-width:16;stroke-dasharray='20 18'/><circle cx='765' cy='710' r='60' style='fill:none;stroke:var(--text);stroke-width:14;opacity:0.4'/><text x='540' y='1120' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='100' style='fill:var(--text)'>LITERASI</text><text x='540' y='1230' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>BELUM MERATA</text></svg>" },
+      "on_screen_text": "Literasi belum merata",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 16,
+      "narration": "Aplikasi baru bisa disembunyikan, diganti nama, lalu diunduh lagi oleh pengguna tanpa banyak hambatan teknis.",
+      "audio": "audio/16.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='330' y='480' width='420' height='640' rx='54' style='fill:none;stroke:var(--text);stroke-width:18'/><rect x='390' y='560' width='100' height='100' rx='20' style='fill:var(--accent);opacity:0.75'/><rect x='520' y='560' width='100' height='100' rx='20' style='fill:var(--text);opacity:0.35'/><rect x='650' y='560' width='60' height='100' rx='20' style='fill:var(--text);opacity:0.2'/><rect x='390' y='690' width='100' height='100' rx='20' style='fill:var(--text);opacity:0.35'/><rect x='520' y='690' width='100' height='100' rx='20' style='fill:none;stroke:var(--accent);stroke-width:14;stroke-dasharray='16 14'/><rect x='650' y='690' width='60' height='100' rx='20' style='fill:var(--text);opacity:0.2'/><text x='540' y='1230' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='90' style='fill:var(--text)'>GANTI NAMA</text><text x='540' y='1340' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>UNDUH LAGI</text></svg>" },
+      "on_screen_text": "Aplikasi disembunyikan",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 17,
+      "narration": "Pengawasan platform digital masih bolong, sehingga konten judi muncul kembali cepat dengan nama samaran baru.",
+      "audio": "audio/17.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><path d='M540 480 L760 560 L720 840 L540 960 L360 840 L320 560 Z' style='fill:none;stroke:var(--accent);stroke-width:18'/><rect x='490' y='620' width='100' height='120' rx='18' style='fill:var(--bg)'/><path d='M490 620 L590 620 L590 740' style='fill:none;stroke:var(--bg);stroke-width:24'/><circle cx='540' cy='820' r='24' style='fill:var(--text)'/><text x='540' y='1160' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='92' style='fill:var(--text)'>PENGAWASAN</text><text x='540' y='1270' text-anchor='middle' font-family='Inter' font-weight='600' font-size='64' style='fill:var(--accent)'>BOLONG</text></svg>" },
+      "on_screen_text": "Konten muncul lagi",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 18,
+      "narration": "Penindakan terhadap perekrut kecil sering tidak menyentuh aktor utama yang mengendalikan jaringan besar dan modal.",
+      "audio": "audio/18.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><line x1='180' y1='760' x2='900' y2='760' style='stroke:var(--text);stroke-width:12;opacity:0.5'/><path d='M540 520 L720 760 L360 760 Z' style='fill:var(--accent);opacity:0.75'/><path d='M540 760 L840 1080 L240 1080 Z' style='fill:var(--text);opacity:0.2'/><text x='540' y='690' text-anchor='middle' font-family='Inter' font-weight='700' font-size='52' style='fill:var(--bg)'>KECIL</text><text x='540' y='960' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='90' style='fill:var(--text)'>AKTOR UTAMA</text><text x='540' y='1240' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>DI BELAKANG</text></svg>" },
+      "on_screen_text": "Aktor utama lolos",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 19,
+      "narration": "Karena itu, pemberantasan judi online harus melibatkan teknologi, pendidikan masyarakat, dan penegakan hukum yang bersama.",
+      "audio": "audio/19.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><rect x='160' y='540' width='220' height='420' rx='28' style='fill:var(--accent);opacity:0.25'/><rect x='430' y='540' width='220' height='420' rx='28' style='fill:var(--accent);opacity:0.45'/><rect x='700' y='540' width='220' height='420' rx='28' style='fill:var(--accent);opacity:0.7'/><text x='270' y='790' text-anchor='middle' font-family='Inter' font-weight='700' font-size='48' style='fill:var(--text)'>TEKNOLOGI</text><text x='540' y='790' text-anchor='middle' font-family='Inter' font-weight='700' font-size='48' style='fill:var(--text)'>PENDIDIKAN</text><text x='810' y='790' text-anchor='middle' font-family='Inter' font-weight='700' font-size='48' style='fill:var(--text)'>HUKUM</text><text x='540' y='1160' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='110' style='fill:var(--text)'>BERSAMA</text><text x='540' y='1270' text-anchor='middle' font-family='Inter' font-weight='600' font-size='56' style='fill:var(--accent)'>SATU ARAH</text></svg>" },
+      "on_screen_text": "Semua pihak",
+      "motion": "zoom_out",
+      "transition": "fade"
+    },
+    {
+      "id": 20,
+      "narration": "Jangan pernah tergiur, segera laporkan, dan lindungi keluarga dari jerat judi online mulai sekarang juga.",
+      "audio": "audio/20.wav",
+      "duration": null,
+      "visual": { "type": "svg", "code": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'><rect width='1080' height='1920' style='fill:var(--bg)'/><path d='M540 500 L780 590 L740 880 L540 1020 L340 880 L300 590 Z' style='fill:var(--accent);opacity:0.25'/><path d='M540 540 L730 610 L700 850 L540 960 L380 850 L350 610 Z' style='fill:none;stroke:var(--accent);stroke-width:16'/><path d='M440 740 L510 810 L650 660' style='fill:none;stroke:var(--text);stroke-width:22;stroke-linecap:round;stroke-linejoin:round'/><text x='540' y='1180' text-anchor='middle' font-family='Poppins' font-weight='700' font-size='120' style='fill:var(--text)'>LAPOR</text><text x='540' y='1290' text-anchor='middle' font-family='Inter' font-weight='600' font-size='60' style='fill:var(--accent)'>LINDUNGI KELUARGA</text></svg>" },
+      "on_screen_text": "Lapor dan lindungi",
+      "motion": "zoom_out",
+      "transition": "fade"
+    }
+  ]
+}

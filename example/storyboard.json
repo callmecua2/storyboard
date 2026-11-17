@@ -1,0 +1,44 @@
+{
+  "title": "Cara Kerja Mesin Pencari dalam 3 Menit",
+  "language": "id",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "theme": {
+    "background": "#0F172A",
+    "accent": "#F59E0B",
+    "text": "#F8FAFC",
+    "fontHeading": "Poppins",
+    "fontBody": "Inter"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Pernahkah Anda bertanya bagaimana mesin pencari menemukan jawaban dalam hitungan milidetik di antara miliaran halaman web?",
+      "audio": null,
+      "duration": 5,
+      "visual": {
+        "type": "svg",
+        "code": "<svg viewBox='0 0 1920 1080' xmlns='http://www.w3.org/2000/svg'><rect width='1920' height='1080' fill='var(--bg)'/><circle cx='960' cy='480' r='240' fill='none' stroke='var(--accent)' stroke-width='12' opacity='0.3'/><circle cx='960' cy='480' r='140' fill='var(--accent)' opacity='0.15'/><text x='960' y='500' font-size='72' font-weight='bold' fill='var(--text)' text-anchor='middle' font-family='sans-serif'>0.02 DETIK</text><text x='960' y='570' font-size='32' fill='var(--accent)' text-anchor='middle' font-family='sans-serif'>MILIARAN HALAMAN WEB</text></svg>"
+      },
+      "on_screen_text": "Rahasia Kecepatan Search Engine",
+      "motion": "zoom_in",
+      "transition": "fade"
+    },
+    {
+      "id": 2,
+      "narration": "Prosesnya dimulai dari program otomatis bernama crawler yang terus menelusuri tautan dari satu situs ke situs lainnya.",
+      "audio": null,
+      "duration": 5,
+      "visual": {
+        "type": "html",
+        "code": "<div style='width:100%;height:100%;display:flex;align-items:center;justify-content:center;gap:60px;background:var(--bg);color:var(--text);font-family:sans-serif;'><div style='padding:48px;border:3px solid var(--accent);border-radius:24px;text-align:center;width:420px;'><div style='font-size:64px;font-weight:800;color:var(--accent);'>01</div><div style='font-size:40px;font-weight:700;margin-top:16px;'>CRAWLING</div><div style='font-size:24px;opacity:0.8;margin-top:12px;'>Menelusuri tautan baru di internet</div></div><div style='font-size:64px;color:var(--accent);'>&rarr;</div><div style='padding:48px;border:2px solid rgba(248,250,252,0.2);border-radius:24px;text-align:center;width:420px;opacity:0.6;'><div style='font-size:64px;font-weight:800;'>02</div><div style='font-size:40px;font-weight:700;margin-top:16px;'>INDEXING</div><div style='font-size:24px;opacity:0.8;margin-top:12px;'>Menyimpan katalog konten</div></div></div>"
+      },
+      "on_screen_text": "Tahap 1: Web Crawling",
+      "motion": "pan_left",
+      "transition": "slide"
+    }
+  ]
+}

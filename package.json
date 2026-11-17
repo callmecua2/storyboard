@@ -1,0 +1,33 @@
+{
+  "name": "storyboard-to-video",
+  "version": "1.0.0",
+  "description": "Local TypeScript & Remotion pipeline to render JSON storyboards into MP4 videos",
+  "private": true,
+  "scripts": {
+    "validate": "tsx src/cli/index.ts validate",
+    "preview": "tsx src/cli/index.ts preview",
+    "render": "tsx src/cli/index.ts render",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.230",
+    "@remotion/media-utils": "4.0.230",
+    "@remotion/transitions": "4.0.230",
+    "commander": "^12.1.0",
+    "isomorphic-dompurify": "^2.16.0",
+    "jsdom": "^25.0.1",
+    "jsonrepair": "^3.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.230",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
